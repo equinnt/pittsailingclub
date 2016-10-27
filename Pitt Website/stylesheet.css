@@ -1,0 +1,50 @@
+<!doctype css>
+.index
+.center {text-align: center; 
+margin: auto;
+width: 60%;
+padding: 10px;}
+ul{list-style-type: none; 
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333}
+li {display: inline-block; 
+text-align: center;
+padding: 14px;
+text-align: center;
+width: 325px; /*fixed width*/}
+li a{color: white;
+text-align: center;
+}
+body{
+background-image:url("ocean.jpg"); background-repeat:no repeat;
+}
+
+
+	div.img {
+    margin: 5px;
+    float: left;
+    width: 20%;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: left;
+}
+
+div.footer{
+	margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
